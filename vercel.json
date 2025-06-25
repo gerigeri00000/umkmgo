@@ -9,7 +9,7 @@
     ],
     "public": true,
     "buildCommand": "vite build",
-    "outputDirectory": "development",
+    "outputDirectory": "production",
     "env": {
         "APP_ENV": "production",
         "APP_KEY":"base64:C+EXLeIESU3Szd4fLYBW5tCgHJ2yyZ/Gdg1ZiDVuOVs=",
