@@ -313,7 +313,7 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('css/umkm.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/umkm.css') }}">
 @endpush
 
 @push('scripts')
@@ -323,6 +323,6 @@
         const kecamatanData = @json($stats['kecamatan_stats']);
     </script>
 
-    <script src="{{ asset('js/umkm.js') }}"></script>
+    <script src="{{ secure_asset('js/umkm.js') }}"></script>
     {{-- <script src="{{ asset('js/umkm_2.js') }}"></script> --}}
 @endpush
