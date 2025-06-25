@@ -9,9 +9,9 @@
     ],
     "public": true,
     "buildCommand": "vite build",
-    "outputDirectory": "production",
+    "outputDirectory": "public",
     "env": {
-        "APP_ENV": "production",
+        "APP_ENV": "development",
         "APP_KEY":"base64:C+EXLeIESU3Szd4fLYBW5tCgHJ2yyZ/Gdg1ZiDVuOVs=",
         "APP_DEBUG": "false",
         "APP_URL": "https://yourproductionurl.com",
